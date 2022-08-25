@@ -11,6 +11,8 @@ namespace newproject
         public  int Add(int a, int b)
             { return a + b; }  
         public static void Main()
-        { }
+        {
+            Console.WriteLine($"hello");
+        }
     }
 }
